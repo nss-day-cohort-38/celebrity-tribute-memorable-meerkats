@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    background-color: black;
+    border: 5px solid gold;
+
+  }
+
+  .nav-links {
+      display: flex;
+      color: gold;
+      display: flex;
+      justify-content: center;
+  }
+
+  .nav-item {
+      list-style: none;
+
+  }
+
+  .nav-item a {
+    padding: 0px 20px;
+    color: gold;
+    text-decoration: none;
+    font-size: 25px; 
+  }
+    a:hover {
+        background-color: red;
+      }
+  .logo {
+      display: flex;
+    display: inline-block;
+
+  }
+  .logo img {
+      width: 75px;
+  }
+
+}
+  nav {
+    width: 100%;
