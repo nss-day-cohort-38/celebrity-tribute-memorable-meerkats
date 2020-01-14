@@ -1,8 +1,11 @@
 .navbar {
     display: flex;
     background-color: black;
-    border: 5px solid gold;
-
+    border: 5px groove gold;
+    position: fixed;
+    width: 98%;
+    font-family: 'IM Fell Great Primer SC', serif;
+    z-index: 100;
   }
 
   .nav-links {
@@ -85,11 +88,17 @@
   }
 
 html {
-  /* background-color: hsl(210, 4%, 9%); */
+  background-color: black;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: red;
+  font-family: 'IM Fell Great Primer SC', serif;
 }
 
 body {
-  /* color:hsl(214, 15%, 91%) */
+  color:gold;
+  font-family: 'Dosis', sans-serif;
 }
 
 .info__all__immediateFamily {
@@ -104,11 +113,32 @@ body {
   flex-direction: column;
   justify-content: center;
   margin: 3rem;
-  border: 1px solid hsl(214, 15%, 91%) ;
+  border: 5px groove gold ;
   padding: 1rem;
 }
 
 article > div > img {
   max-width: 15rem;
   margin: auto;
+}
+
+.footer {
+  display: flex;
+  background-color: black;
+  /* border: 5px groove gold; */
+  width: 97%;
+  justify-content: flex-end;
+}
+
+.footer__links {
+  display: flex;
+  color: gold;
+  /* justify-content: space-around; */
+  margin: 10px;
+  width: 5%;
+}
+
+#selenaImg {
+  clip-path: circle(50%);
+  z-index: -1;
 }
