@@ -2,6 +2,8 @@
     display: flex;
     background-color: black;
     border: 5px solid gold;
+    position: fixed;
+    width: 98%;
 
   }
 
@@ -23,6 +25,10 @@
     color: gold;
     text-decoration: none;
     font-size: 25px; 
+  }
+  .padding__top {
+    /* position: static; */
+    padding-top: 80px;
   }
     a:hover {
         background-color: red;
@@ -54,14 +60,29 @@
     /* display: flex; */
     /* flex: 60%; */
     /* align-items: stretch; */
-    height: 15rem;
-    width: 60%;
+    padding: 1px;
+    word-wrap: break-word;
+    overflow: scroll;
+    height: 20rem;
+    width: 70%;
     border: 5px groove darkgray;
     margin: .5rem 1rem .5rem 1rem;
   }
 
+  .newsPics {
+    width: 30%;
+  }
+
+  .sideBox {
+    width: 20%;
+    height: 30rem;
+    border: 5px groove gold;
+    align-self: flex-end;
+  }
+
   .twitter-timeline {
         
+    align-content: flex-end;
   }
 
 /* beginning of DM CSS for personal */
