@@ -8,8 +8,9 @@
   .nav-links {
       display: flex;
       color: gold;
-      display: flex;
-      justify-content: center;
+      justify-content: space-around;
+      margin: auto;
+      width: 100%;
   }
 
   .nav-item {
@@ -62,3 +63,52 @@
   .twitter-timeline {
         
   }
+
+/* beginning of DM CSS for personal */
+
+  .info__all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .info__all > article {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .info__all__birthcountry > img {
+    max-width: 15rem;
+  }
+
+html {
+  /* background-color: hsl(210, 4%, 9%); */
+}
+
+body {
+  /* color:hsl(214, 15%, 91%) */
+}
+
+.info__all__immediateFamily {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+.info__all__immediateFamily > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 3rem;
+  border: 1px solid hsl(214, 15%, 91%) ;
+  padding: 1rem;
+}
+
+article > div > img {
+  max-width: 15rem;
+  margin: auto;
+}
