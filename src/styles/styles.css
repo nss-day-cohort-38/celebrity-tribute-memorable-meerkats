@@ -162,6 +162,104 @@ article > div > img {
   margin: auto;
 }
 
+/* MC Career CSS Start */
+body {
+  background-color: black;
+}
+
+.career_whole {
+  background-color: black;
+  border: 20px groove black;
+  color: gold;
+  
+}
+
+/* .careerSection {
+  padding: 10%;
+} */
+
+.centerContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+}
+/* .video {
+  border: solid 1px gold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+} */
+
+.video {
+  left: 50%;
+  min-height: 100%;
+  min-width: 100%;
+  /* position: absolute; */
+  top: 50%;
+  /* transform: translate(-50%, -50%); */
+}
+
+.career-div {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  padding: 4%;
+}
+
+.pictureLeft {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: left;
+  justify-items: center;
+  margin-left: 4%;
+}
+
+.pictureRight {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: left;
+  justify-items: center;
+  margin-left: 4%;
+}
+
+.starPic {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 4%;
+}
+
+.movingPictures {
+  display
+}
+
+.sectionText {
+  border: groove 1px red;
+  font-size: 30px;
+  color: white;
+  text-align: right;
+  padding: 2px;
+  margin: 2px:
+}
+
+.albumText {
+  margin-left: 5px;
+}
+
+.imgResize {
+  max-width: 25%;;
+}
+
+/* .anchorSize {
+  width: 25%;
+}
+
+.imgLinkSize {
+  width: 100%;
+} */
 .executiveSummaryPortraitImg {
 
   width: 60%;
