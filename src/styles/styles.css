@@ -1,104 +1,107 @@
 .navbar {
-    display: flex;
-    background-color: black;
-    border: 5px groove gold;
-    position: fixed;
-    width: 98%;
-    font-family: 'IM Fell Great Primer SC', serif;
-    z-index: 100;
-  }
+  display: flex;
+  background-color: black;
+  border: 5px groove gold;
+  position: fixed;
+  width: 98%;
+  font-family: "IM Fell Great Primer SC", serif;
+  z-index: 100;
+}
 
-  .nav-links {
-      display: flex;
-      color: gold;
-      justify-content: space-around;
-      margin: auto;
-      width: 100%;
-  }
+.nav-links {
+  display: flex;
+  color: gold;
+  justify-content: space-around;
+  margin: auto;
+  width: 100%;
+}
 
-  .nav-item {
-      list-style: none;
+.nav-item {
+  list-style: none;
+}
 
-  }
+.nav-item a {
+  padding: 0px 20px;
+  color: gold;
+  text-decoration: none;
+  font-size: 25px;
+}
+a:hover {
+  background-color: red;
+}
+.logo {
+  display: flex;
+  display: inline-block;
+}
+.logo img {
+  width: 75px;
+}
 
-  .nav-item a {
-    padding: 0px 20px;
-    color: gold;
-    text-decoration: none;
-    font-size: 25px; 
-  }
-    a:hover {
-        background-color: red;
-      }
-  .logo {
-      display: flex;
-    display: inline-block;
+nav {
+  width: 100%;
+}
 
-  }
-  .logo img {
-      width: 75px;
-  }
+/* class for main news section */
+.newsArticle {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-content: space-between;
+  height: 100%;
+}
+/* class for individual news articles */
+.newsBox {
+  /* display: flex; */
+  /* flex: 60%; */
+  /* align-items: stretch; */
+  height: 15rem;
+  width: 60%;
+  border: 5px groove darkgray;
+  margin: 0.5rem 1rem 0.5rem 1rem;
+}
 
-  nav {
-    width: 100%;
-  }
-
-  /* class for main news section */
-  .newsArticle {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-around;
-    align-content: space-between;
-    height: 100%;
-
-  }
-  /* class for individual news articles */
-  .newsBox {
-    /* display: flex; */
-    /* flex: 60%; */
-    /* align-items: stretch; */
-    height: 15rem;
-    width: 60%;
-    border: 5px groove darkgray;
-    margin: .5rem 1rem .5rem 1rem;
-  }
-
-  .twitter-timeline {
-        
-  }
+.twitter-timeline {
+}
 
 /* beginning of DM CSS for personal */
 
-  .info__all {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+.info__all {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+  flex-wrap: wrap;
+}
 
-  .info__all > article {
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    flex-direction: column;
-    text-align: center;
-  }
+.info__all > article {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 3rem 0 3rem 0
+}
 
-  .info__all__birthcountry > img {
-    max-width: 15rem;
-  }
+.info__all__birthcountry > img {
+  max-width: 15rem;
+}
 
 html {
   background-color: black;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: red;
-  font-family: 'IM Fell Great Primer SC', serif;
+  font-family: "IM Fell Great Primer SC", serif;
 }
 
 body {
-  color:gold;
-  font-family: 'Dosis', sans-serif;
+  color: gold;
+  font-family: "Dosis", sans-serif;
 }
 
 .info__all__immediateFamily {
@@ -111,9 +114,8 @@ body {
 .info__all__immediateFamily > div {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   margin: 3rem;
-  border: 5px groove gold ;
+  border: 5px groove gold;
   padding: 1rem;
 }
 
@@ -125,7 +127,6 @@ article > div > img {
 .footer {
   display: flex;
   background-color: black;
-  /* border: 5px groove gold; */
   width: 97%;
   justify-content: flex-end;
 }
@@ -133,7 +134,6 @@ article > div > img {
 .footer__links {
   display: flex;
   color: gold;
-  /* justify-content: space-around; */
   margin: 10px;
   width: 5%;
 }
@@ -141,4 +141,26 @@ article > div > img {
 #selenaImg {
   clip-path: circle(50%);
   z-index: -1;
+}
+
+.border__yellow {
+  border: 5px groove gold;
+  padding: 1rem;
+}
+
+.attribution {
+  text-align: end;
+  color: gold;
+}
+
+.attribution > p > a:visited {
+  color: gold;
+}
+
+.attribution > p > a:link {
+  color: gold;
+}
+
+.padding__top {
+  padding-top: 80px;
 }
