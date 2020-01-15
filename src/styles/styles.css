@@ -81,8 +81,21 @@ nav {
   margin: 3rem 0 3rem 0
 }
 
+.info__all > article > p {
+  font-size: 3ch;
+}
+
+.info__all > article > h1,h2,h3,h4,h5,h6 {
+  font-size: 4ch;
+}
+
+.info__all__immediateFamily > div > p {
+  font-size: 2ch;
+}
+
 .info__all__birthcountry > img {
   max-width: 15rem;
+  margin: auto;
 }
 
 html {
@@ -163,4 +176,12 @@ article > div > img {
 
 .padding__top {
   padding-top: 80px;
+}
+
+.info__all_immediateFamily__Carrie > p > a:link {
+  color: gold;
+}
+
+.info__all_immediateFamily__Carrie > p > a:visited {
+  color: gold;
 }
