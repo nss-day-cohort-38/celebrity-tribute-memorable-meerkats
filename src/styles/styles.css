@@ -4,7 +4,7 @@
     border: 5px groove gold;
     position: fixed;
     width: 98%;
-    font-family: 'IM Fell Great Primer SC', serif;
+    font-family: "IM Fell Great Primer SC", serif;
     z-index: 100;
   }
 
@@ -15,7 +15,7 @@
       margin: auto;
       width: 100%;
   }
-
+ 
   .nav-item {
       list-style: none;
 
@@ -28,10 +28,9 @@
     font-size: 25px; 
   }
   .padding__top {
-    /* position: static; */
-    padding-top: 80px;
+       padding-top: 80px;
   }
-    a:hover {
+  a:hover {
         background-color: red;
       }
   .logo {
@@ -58,11 +57,8 @@
   }
   /* class for individual news articles */
   .newsBox {
-    /* display: flex; */
-    /* flex: 60%; */
-    /* align-items: stretch; */
     padding: 8px;
-    word-wrap: break-word;
+    word-wrap: normal;
     overflow: scroll;
     height: 25rem;
     width: 80%;
@@ -75,50 +71,58 @@
     width: 30%;
   }
 
-  .sideBox {
-    width: 20%;
-    height: 30rem;
-    border: 5px groove gold;
-    align-self: flex-end;
-  }
-
-  .twitter-timeline {
-        
-    align-content: flex-end;
-  }
-
 /* beginning of DM CSS for personal */
 
-  .info__all {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+.info__all {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+  flex-wrap: wrap;
+}
 
-  .info__all > article {
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    flex-direction: column;
-    text-align: center;
-  }
+.info__all > article {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 3rem 0 3rem 0
+}
 
-  .info__all__birthcountry > img {
-    max-width: 15rem;
-  }
+.info__all > article > p {
+  font-size: 3ch;
+}
+
+.info__all > article > h1,h2,h3,h4,h5,h6 {
+  font-size: 4ch;
+}
+
+.info__all__immediateFamily > div > p {
+  font-size: 2ch;
+}
+
+.info__all__birthcountry > img {
+  max-width: 15rem;
+  margin: auto;
+}
 
 html {
   background-color: black;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: red;
-  font-family: 'IM Fell Great Primer SC', serif;
+  font-family: "IM Fell Great Primer SC", serif;
 }
 
 body {
-  color:gold;
-  font-family: 'Dosis', sans-serif;
+  color: gold;
+  font-family: "Dosis", sans-serif;
 }
 
 .info__all__immediateFamily {
@@ -131,9 +135,8 @@ body {
 .info__all__immediateFamily > div {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   margin: 3rem;
-  border: 5px groove gold ;
+  border: 5px groove gold;
   padding: 1rem;
 }
 
@@ -145,7 +148,6 @@ article > div > img {
 .footer {
   display: flex;
   background-color: black;
-  /* border: 5px groove gold; */
   width: 97%;
   justify-content: flex-end;
 }
@@ -153,7 +155,6 @@ article > div > img {
 .footer__links {
   display: flex;
   color: gold;
-  /* justify-content: space-around; */
   margin: 10px;
   width: 5%;
 }
@@ -161,4 +162,34 @@ article > div > img {
 #selenaImg {
   clip-path: circle(50%);
   z-index: -1;
+}
+
+.border__yellow {
+  border: 5px groove gold;
+  padding: 1rem;
+}
+
+.attribution {
+  text-align: end;
+  color: gold;
+}
+
+.attribution > p > a:visited {
+  color: gold;
+}
+
+.attribution > p > a:link {
+  color: gold;
+}
+
+.padding__top {
+  padding-top: 80px;
+}
+
+.info__all_immediateFamily__Carrie > p > a:link {
+  color: gold;
+}
+
+.info__all_immediateFamily__Carrie > p > a:visited {
+  color: gold;
 }
