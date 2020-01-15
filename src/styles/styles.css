@@ -1,8 +1,28 @@
+body {
+  background-color: black;
+  color: gold;
+  /* margin: 30px; */
+}
+
+h1,h2,h3,h4,h5 {
+  color: red;
+}
+.padding__top {
+  color: gold;
+  padding-top: 80px
+}
+.notNav {
+ margin-top: 100px;
+}
+
 .navbar {
     display: flex;
     background-color: black;
-    border: 5px solid gold;
-
+    border: 5px groove gold;
+    position: fixed;
+    width: 98%;
+    font-family: "IM Fell Great Primer SC", serif;
+    z-index: 100;
   }
 
   .nav-links {
@@ -12,7 +32,7 @@
       margin: auto;
       width: 100%;
   }
-
+ 
   .nav-item {
       list-style: none;
 
@@ -24,7 +44,10 @@
     text-decoration: none;
     font-size: 25px; 
   }
-    a:hover {
+  .padding__top {
+       padding-top: 80px;
+  }
+  a:hover {
         background-color: red;
       }
   .logo {
@@ -44,52 +67,79 @@
   .newsArticle {
     display: flex;
     flex-flow: column wrap;
-    justify-content: space-around;
-    align-content: space-between;
+    justify-content: space-evenly;
+    align-content: center;
     height: 100%;
 
   }
   /* class for individual news articles */
   .newsBox {
-    /* display: flex; */
-    /* flex: 60%; */
-    /* align-items: stretch; */
-    height: 15rem;
-    width: 60%;
-    border: 5px groove darkgray;
+    padding: 8px;
+    word-wrap: normal;
+    overflow: scroll;
+    height: 25rem;
+    width: 80%;
+    border: 5px groove gold;
     margin: .5rem 1rem .5rem 1rem;
   }
 
-  .twitter-timeline {
-        
+  /* class for pictures in news articles */
+  .newsPics {
+    width: 30%;
   }
 
 /* beginning of DM CSS for personal */
 
-  .info__all {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+.info__all {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+  flex-wrap: wrap;
+}
 
-  .info__all > article {
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    flex-direction: column;
-    text-align: center;
-  }
+.info__all > article {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 3rem 0 3rem 0
+}
 
-  .info__all__birthcountry > img {
-    max-width: 15rem;
-  }
+.info__all > article > p {
+  font-size: 3ch;
+}
+
+.info__all > article > h1,h2,h3,h4,h5,h6 {
+  font-size: 4ch;
+}
+
+.info__all__immediateFamily > div > p {
+  font-size: 2ch;
+}
+
+.info__all__birthcountry > img {
+  max-width: 15rem;
+  margin: auto;
+}
 
 html {
-  /* background-color: hsl(210, 4%, 9%); */
+  background-color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: red;
+  font-family: "IM Fell Great Primer SC", serif;
 }
 
 body {
-  /* color:hsl(214, 15%, 91%) */
+  color: gold;
+  font-family: "Dosis", sans-serif;
 }
 
 .info__all__immediateFamily {
@@ -102,9 +152,8 @@ body {
 .info__all__immediateFamily > div {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   margin: 3rem;
-  border: 1px solid hsl(214, 15%, 91%) ;
+  border: 5px groove gold;
   padding: 1rem;
 }
 
@@ -211,3 +260,130 @@ body {
 .imgLinkSize {
   width: 100%;
 } */
+.executiveSummaryPortraitImg {
+
+  width: 60%;
+  border: 5px groove gold;
+}
+
+.executiveSummaryPortrait{
+  display: flex;
+  font-size: 40px;
+  justify-content: center;
+ 
+}
+
+.alias {
+  font-size: 70px;
+}
+
+.peart{
+  font-size:70px;
+  text-align: center;
+}
+
+.executiveSummaryAliases {
+  text-align: center; 
+  list-style: none;
+  font-size: 35px;
+
+}
+
+.executiveSummaryAliasList {
+  list-style: none;
+  border: 5px groove gold;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding: 20px;
+}
+
+.executiveSummaryCollabs {
+  text-align: center; 
+  list-style: none;
+  font-size: 35px;
+
+
+}
+
+.executiveSummaryCollabsList {
+  list-style: none;
+  border: 5px groove gold;
+  /* width: 75%
+   */
+   margin-left: 300px;
+   margin-right: 300px; 
+   padding: 20px;
+
+}
+
+.Collabs {
+  font-size: 70px;
+}
+
+
+.executiveSummaryResidence{
+  display: flex;
+  font-size: 40px;
+  justify-content: center;
+ 
+}
+
+.executiveSummaryResidenceImg {
+
+  width: 60%;
+  border: 5px groove gold;
+}
+
+.Residence {
+  text-align:center;
+  font-size: 70px;
+}
+
+.Bubba {
+  font-size: 170px;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  background-color: black;
+  width: 97%;
+  justify-content: flex-end;
+}
+
+.footer__links {
+  display: flex;
+  color: gold;
+  margin: 10px;
+  width: 5%;
+}
+
+.border__yellow {
+  border: 5px groove gold;
+  padding: 1rem;
+}
+
+.attribution {
+  text-align: end;
+  color: gold;
+}
+
+.attribution > p > a:visited {
+  color: gold;
+}
+
+.attribution > p > a:link {
+  color: gold;
+}
+
+.padding__top {
+  padding-top: 80px;
+}
+
+.info__all_immediateFamily__Carrie > p > a:link {
+  color: gold;
+}
+
+.info__all_immediateFamily__Carrie > p > a:visited {
+  color: gold;
+}
